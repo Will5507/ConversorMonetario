@@ -34,12 +34,15 @@ calcular.addEventListener('click', function (e){
 
      // criar uma div html via js com o valor de conversao
     //const body = document.querySelector('body')
-    const corpo1 = document.querySelector('.corpo1')
+    //const corpo1 = document.querySelector('.corpo1')
+    const form = document.querySelector('form')
 
     const div1 = document.createElement('div')
     div1.classList.add('resultado')
     div1.innerHTML = conversao
-    corpo1.appendChild(div1)
+  
+    form.appendChild(div1)
+    
 
    // console.log(recebeValor)  // na verdade quero adicionar esse valor como um elemento HTML novo
 

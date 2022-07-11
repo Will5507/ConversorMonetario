@@ -35,29 +35,35 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
-}
-
-.corpo >form .first { 
-    display: flex;
-    margin-bottom: 15px;
+    color:white;
     font-family: monospace;
     font-size: 20px;
-    color: white;
+
 }
 
-.second, .third {
+.corpo1  .second .first{ 
+    display: flex;
+    
+  
+  
+}
+
+form > .third {
    
     display: flex;
+    height: 35px;
     font-family: monospace;
     color: white;
     font-size: 20px;
     justify-content: space-between;
+    margin-bottom: 15px;
+
     
 }
 
 .resultado {
     display: flex;
+    width: 25px;
     font-family: monospace;
     color: white;
     font-size: 20px;
