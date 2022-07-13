@@ -1,3 +1,3 @@
-# Pasta onde vou colocar todos os meus projetos Frontend.
+# Projeto de conversor monetário
 
-seja bem-vindo e aproveite!
+$  para R$ e R$ para $
