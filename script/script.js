@@ -1,5 +1,6 @@
 // as moedas terão um valor padrão dentro do javascript
 // quero pegar o valor do input "valor"
+//envia danado
 
 const calcular = document.querySelector('#calcular')
 var conversao = 0
