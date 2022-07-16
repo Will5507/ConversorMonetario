@@ -13,55 +13,64 @@
 
     <h2>Conversor Monetário</h2>
 
-        <div class="corpo">
+        <div class="main-square">
 
        
-           <!-- valor estava aki -->
+           
       
 
-            <div class="corpo1">  
+            <div class="first">  
 
-                        <div class="second">
+                        
                             <label for="ConverInicial">Converter de:</label>
 
-                                <input list="moedas" id="ConverInicial" required>
-                                    <datalist id="moedas">
+                                <input list="coin" id="ConverInicial" required>
+                                    <datalist id="coin">
                                         <option class="recebeMoedas" value="Dolar (USD)">
                                         <option class="recebeMoedas" value="Real (BRL)">
                                              
                                 
                                     </datalist>
 
-                        </div>      
+                              
                         <img id="refresh" src="img/refresh.png" alt="Minha Figura">
 
-                                <div class="first">
+                                
                                     <label for="Para">Para:</label>
 
-                                        <input list="moedas1" id="Para" required>
-                                            <datalist id="moedas1">
+                                        <input list="coin1" id="Para" required>
+                                            <datalist id="coin1">
                                                 <option class="recebeMoedas1" value="Dolar (USD)">
                                                 <option class="recebeMoedas1" value="Real (BRL)">
                                                     
                                 
                                             </datalist>
-                                 </div>           
+                                            
                                  
 
              
                                             
             </div>    
 
-            <form action=""> 
-                <div class=third>
+            <div class="break"></div>
+            &nbsp;
+                
+                <div class=second>
+
                         <label for="valor">Valor: </label>
                         <input type="text" id="valor" maxlength="25" size="32" placeholder="Digite o valor da  moeda a ser convertida" required>
-                 </div>
-            
-                        <div class="fourth">
-                                <button type="submit" id="calcular"> Calcular!</button>    
-                         </div>    
-            </form>                      
+                </div>
+
+                    <!-- quebra de linha-->
+                   <div class="break"></div> 
+
+                <div class="third">
+                        <button type="submit" id="calcular"> Calcular!</button> 
+                </div>
+                        
+                          
+                    
+                              
         </div>
           
                    

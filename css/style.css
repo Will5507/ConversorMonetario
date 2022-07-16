@@ -1,6 +1,6 @@
 
-
 body {
+    
     background-color: #76c893;
     font-family: monospace;
     margin:0px;
@@ -14,53 +14,62 @@ h2 {
     font-size: 47px;
 }
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
 
-.corpo{
-    height: 350px;
+#refresh {
+    height: 35px;
+    width: 35px;
+}
+
+
+.main-square {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 20px;
+    color: white;
+    font-size:24px;
+    padding: 17px;
+    height: 90%;
+    width: 90%;
+    border: 5px solid white;
+}
+
+.first{
+    display: flex;
+
+}
+
+.second {
+   display: flex;
+   flex-direction: row;
+
+}    
+.third {
     display: flex;
     flex-direction: column;
-    margin: 35px;
-    padding:  17px;
-    border: 5px solid white;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    
-  
-}
-.corpo1{
-
-    display: flex;
-    width: 90%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    font-family: monospace;
-    font-size: 20px;
-
 }
 
-.corpo1  .second .first{ 
-    display: flex;
-    
-  
-  
+#calcular {
+    background-color: #588157;
+    color: whitesmoke;
+    font-size:35px;
+    border: 2px solid white ;
 }
 
-form > .third {
-   
-    display: flex;
-    height: 35px;
-    font-family: monospace;
+#calcular:hover{
+    background-color: #2f3e46;
     color: white;
-    font-size: 20px;
-    justify-content: space-between;
-    margin-bottom: 15px;
 
-    
 }
 
+/* div criada a partir do script*/
 .resultado {
     display: flex;
     width: 25px;
@@ -72,23 +81,10 @@ form > .third {
     border-style: solid;
     
 }
-
-#refresh {
-    width:40px;
-    height: 40px;
    
-}
 
-#calcular {
-    background-color: white;
-    width: 175px;
-    border-radius: 2px;
-    border-color:aliceblue;
-    border-style: solid;
-    font-size:25px;
-    color: #76c893;
 
-}
+
 
 
 
