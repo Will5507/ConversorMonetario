@@ -1,27 +1,20 @@
 const btn = document.querySelector('#calcular') // botao 
 const moedaInicial = document.querySelector('#ConverInicial')// input pra conversao inicial
 const valor = document.querySelector('#valor')// input do valor a ser convertido
-const recebeValor =  valor.value //recebe valor do input digitado pelo usuario
-var conversao = 0
+
+let conversao = 0
 
 
 
+function calcular(e) {
 
-btn.addEventListener('click', function() {
+        if (moedaInicial.value  == 'Dolar (USD)') {
 
-
-
-
-
-        if (moedaInicial  == 'Dolar (USD)') {
-
-                conversao = recebeValor * 0.19
+              
+            conversao = valor.value  * 0.19
                 
-        }if(moedaInicial == "Real (BRL)") {
-
-                conversao = recebeValor * 5.25
-
-
+        }if(moedaInicial.value == "Real (BRL)") {
+            conversao = valor.value  * 5.25
         }
 
         
@@ -30,7 +23,9 @@ btn.addEventListener('click', function() {
         div1.innerHTML = conversao
         btn.appendChild(div1)
 
-})
+
+        
+}
 
 
 
